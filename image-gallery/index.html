@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Image Gallery</h1>
+
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="nature">Nature</button>
+    <button class="filter-btn" data-filter="architecture">Architecture</button>
+    <button class="filter-btn" data-filter="animals">Animals</button>
+  </div>
+
+  <div class="gallery">
+
+    <!-- Nature -->
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1018/400/300" alt="Nature 1" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1015/400/300" alt="Nature 2" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1016/400/300" alt="Nature 3" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1027/400/300" alt="Nature 6" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1035/400/300" alt="Nature 7" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1039/400/300" alt="Nature 8" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1043/400/300" alt="Nature 9" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1050/400/300" alt="Nature 10" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1052/400/300" alt="Nature 11" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1056/400/300" alt="Nature 12" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1060/400/300" alt="Nature 13" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1063/400/300" alt="Nature 14" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1067/400/300" alt="Nature 15" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1070/400/300" alt="Nature 16" /></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1080/400/300" alt="Nature 18" /></div>
+
+    <!-- Architecture -->
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1031/400/300" alt="Architecture 2" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1033/400/300" alt="Architecture 3" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1036/400/300" alt="Architecture 4" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1040/400/300" alt="Architecture 5" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1044/400/300" alt="Architecture 6" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1047/400/300" alt="Architecture 7" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1051/400/300" alt="Architecture 8" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1054/400/300" alt="Architecture 9" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1057/400/300" alt="Architecture 10" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1061/400/300" alt="Architecture 11" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1064/400/300" alt="Architecture 12" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1068/400/300" alt="Architecture 13" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1071/400/300" alt="Architecture 14" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1075/400/300" alt="Architecture 15" /></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1078/400/300" alt="Architecture 16" /></div>
+
+    <!-- Animals -->
+    <div class="gallery-item" data-category="animals"><img src="https://picsum.photos/id/1074/400/300" alt="Nature 17" /></div>
+    <div class="gallery-item" data-category="animals"><img src="https://picsum.photos/id/1084/400/300" alt="Nature 19" /></div>
+    <div class="gallery-item" data-category="animals"><img src="https://picsum.photos/id/1025/400/300" alt="Architecture 1" /></div>
+    <div class="gallery-item" data-category="animals"><img src="https://picsum.photos/id/237/400/300" alt="Animals 1" /></div>
+    <div class="gallery-item" data-category="animals"><img src="https://picsum.photos/id/219/400/300" alt="Animals 2" /></div>
+    <div class="gallery-item" data-category="animals"><img src="https://picsum.photos/id/1020/400/300" alt="Nature 4" /></div>
+
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Lightbox Image" />
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
